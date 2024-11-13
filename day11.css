@@ -1,0 +1,66 @@
+
+
+  div>img{
+
+  
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-timing-function: linear;
+    animation-name:rollingdiv;
+    animation-iteration-count:infinite;
+    margin-left:300px;
+    margin-top:80px;
+    border-radius: 10px; 
+    
+
+
+   }   
+    @keyframes rollingdiv{
+
+   0%{
+      transform:translateX(0%) rotate(0deg);
+    }
+    
+     50%{
+      transform: translateX(50vw) rotate(360deg);
+
+     }
+     100%{
+       transform:translateX(0%) rotate(0deg);
+
+     }
+    }
+
+   p>img{
+
+     animation-duration: 2s;
+     animation-delay: 0.2s;
+     animation-timing-function: linear;
+     animation-name:rollingp;
+     animation-iteration-count:infinite;
+      margin-left:10px;
+     margin-top:10px; 
+     border-radius: 10px; 
+   }
+
+@keyframes rollingp{
+       0%{
+            transform: translateY(0%) rotate(0deg);
+       }
+     50%{
+
+      transform: translateY(10rem) rotate(360deg);
+     }
+     100%{
+      transform: translateY(0rem) rotate(0deg);
+
+     }
+
+
+
+     }
+
+    
+
+
+
